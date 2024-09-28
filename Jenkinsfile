@@ -3,8 +3,8 @@ pipeline
  agent any
  stages
  {
-  stage('scm checkout')
-  { steps { git 'https://github.com/ravirajole/future-ready-talent'}  }
+//   stage('scm checkout')
+//   { steps { git 'https://github.com/ravirajole/future-ready-talent'}  }
 
 
   stage('build the code')    //build the job clean workspace skip test scripts
